@@ -555,7 +555,7 @@ Structure and Layout
 
 .site-inner {
 	clear: both;
-	padding: 5% 0;
+	/* padding: 5% 0; */
 }
 
 .agency-pro-home .site-inner {
@@ -1431,10 +1431,19 @@ Content Area
 --------------------------------------------- */
 
 .entry {
-	background-color: #fff;
+	/* background-color: #fff; */
 	border-radius: 3px;
-	margin-bottom: 40px;
-	padding: 40px 40px 24px;
+	/* margin-bottom: 40px; */
+	padding: 40px 40px 0px;
+}
+
+.column-entry {
+	background-color: #fff;
+	overflow: auto;
+}
+
+.column-entry-spacing {
+	margin-bottom: 30px;
 }
 
 .entry-content ol,
@@ -1474,6 +1483,10 @@ Content Area
 
 .entry-header .entry-meta {
 	margin-bottom: 20px;
+}
+
+.entry-header {
+	display: none;
 }
 
 .entry-footer .entry-meta {
@@ -2149,7 +2162,7 @@ Media Queries
 	}
 	
 	.site-inner {
-		padding: 5%;
+		/* padding: 5%; */
 	}
 	
 }
